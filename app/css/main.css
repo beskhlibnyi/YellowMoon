@@ -47,9 +47,6 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-align-self: center;
-        -ms-flex-item-align: center;
-            align-self: center;
     width: 88px;
     height: 88px; }
   .landing-page .smaller {
@@ -59,14 +56,6 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-align-content: center;
-        -ms-flex-line-pack: center;
-            align-content: center;
     font-family: Roboto;
     text-transform: uppercase;
     width: 283px;
@@ -81,11 +70,6 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
     padding-bottom: 100px;
     font-family: Roboto;
     text-transform: uppercase;
@@ -133,3 +117,140 @@ body {
     color: #131316;
     border: 1px solid #ffe600;
     margin: -1px; }
+
+.about-us {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 100px; }
+  .about-us .about-head-bigger {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    color: #131316;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 27px;
+    text-transform: uppercase;
+    letter-spacing: -0.63px;
+    padding-bottom: 30px; }
+  .about-us .about-head-smaller {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    color: #ffe600;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    text-transform: uppercase;
+    letter-spacing: -0.38px; }
+  .about-us .separator {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    border-left: 1px solid #ffe600;
+    height: 35px;
+    position: absolute;
+    left: 5px;
+    margin: auto auto; }
+  .about-us .numering {
+    color: #ffe600;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: -0.63px;
+    width: 30px; }
+  .about-us .about-block-head {
+    color: #131316;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    text-transform: uppercase;
+    letter-spacing: -0.38px; }
+  .about-us .about-blocks {
+    padding-top: 100px; }
+  .about-us .about-block-body {
+    color: #8e8e8e;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: -0.38px;
+    padding-top: 15%;
+    padding-bottom: 30%; }
+
+.quote {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 650px;
+  background: #ffe600; }
+  .quote .quote-body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: flex;
+    color: #131316;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.25px; }
+    .quote .quote-body .quote-body-smaller {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      color: #ffffff;
+      font-family: Roboto;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 27px;
+      text-transform: uppercase;
+      letter-spacing: -0.38px; }
