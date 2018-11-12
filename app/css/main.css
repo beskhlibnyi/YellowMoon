@@ -412,4 +412,13 @@
       margin-bottom: 7%; }
   .contact-us .btn.btn-secondary.btn-lg.btn-block {
     background: black;
-    border-color: black; }
+    border-color: black;
+    margin-bottom: 5%; }
+
+.app-footer {
+  line-height: 75px;
+  color: yellow;
+  height: auto;
+  background: black; }
+  .app-footer .social {
+    padding-right: 20px; }
