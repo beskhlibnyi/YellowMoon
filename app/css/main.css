@@ -410,6 +410,8 @@
       text-transform: uppercase;
       letter-spacing: -0.38px;
       margin-bottom: 7%; }
+  .contact-us .custom-form {
+    background-color: #ffe600; }
   .contact-us .btn.btn-secondary.btn-lg.btn-block {
     background: black;
     border-color: black;
