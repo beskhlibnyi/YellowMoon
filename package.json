@@ -22,6 +22,6 @@
     "imagemin-pngquant": "^6.0.0"
   },
   "dependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^4.0.2"
   }
 }
